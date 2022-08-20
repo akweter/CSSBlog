@@ -1,0 +1,175 @@
+
+body{
+    background: lightgrey;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(230, 54, 54);
+    margin-top: 0;
+    padding-top: 0;
+}
+
+main, footer{
+    margin: 1% 5% 5% 5%    ;
+}
+
+.carousel{
+    padding-top: 15%;
+    text-align: center;
+}
+
+.carouselImg{
+    padding-top: 10%;
+    background: lightgreen;
+}
+
+ul.nav-btns{
+    display: flex;
+}
+
+li.nav-icon{
+    margin-right: 15%;
+}
+
+li{
+    list-style: none;
+    padding: 1%;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+li:nth-child(7){
+    margin-right: 20%;
+}
+
+
+article{
+    border: 2px solid rgb(0, 145, 0);
+}
+
+div.abt-block, div.block-two{
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+
+div.block-two{
+    margin: 30px auto;
+    background: url(../public/thumb-1920-696458.jpg);
+    height: 500px;
+    background-position: 0;
+}
+
+div.aboutus{
+    width: 65%;
+    border: 2px dashed red;
+    background: url(../public/lag.jpg);
+    height: 400px;
+}
+
+h3{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p{
+    text-align: justify;
+    color: rgb(36, 0, 238);
+    font-size: larger;
+}
+
+.aboutText{
+    width: 70%;
+    height: 70%;
+    margin: 10%;
+    padding: 2%;
+    background-color: rgb(218, 240, 178);
+}
+
+thead{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+div.block21{
+    width: 60%;
+    border: 2px dashed red;
+}
+
+.divisible{
+    display: inline-flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 30px;
+}
+
+ol>li{
+    list-style: radial-gradient(red, rgb(31, 6, 255));
+    width: 100%;
+}
+
+div.block2{
+    width: 33.3%;
+    border: 2px dashed red;
+}
+
+b{
+    text-decoration: none;
+    font-size: large;
+}
+
+footer{
+    border: 2px solid rgb(122, 8, 230);
+    background: radial-gradient(rgb(42, 252, 15), rgb(230, 126, 230)), url(/public/dark-wallpapers.jpg);
+    text-align: center;
+    color: rgb(236, 99, 19);
+    margin-top: 0;
+    
+}
+
+
+
+@media (max-width: 800px) {
+    li.nav-icon{
+        margin-right: 5%;
+    }
+
+    li{
+        list-style: none;
+        padding: 0.5%;
+        font-weight: bolder;
+        font-size: larger;
+    }
+}
+
+
+@media (max-width: 600px) {
+    li.nav-icon{
+        margin-right: 2%;
+    }
+
+    li{
+        list-style: none;
+        padding: 0.2%;
+        font-weight: bolder;
+        font-size: larger;
+    }
+}
+
+
+@media (max-width: 500px) {
+    li.nav-icon{
+        margin-right: 2%;
+    }
+
+    li{
+        list-style: none;
+        padding: 0.2%;
+        font-weight: bolder;
+        font-size: larger;
+    }
+}
+/*position: relative;*/
