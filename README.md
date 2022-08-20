@@ -1,6 +1,6 @@
-# Designing Blog Page with CSS
+# Just reducing sitting stress with HMTL CSS
 
-`Design a blog page with CSS and HTML alone` <br/>
-## [View it here](heroku)
+`Build a blog page with CSS and HTML alone` <br/>
+## [View it here](https://play-around.herokuapp.com/)
 
-![ ](https://user-images.githubusercontent.com/71665600/182739933-b94a9e9d-bf8b-42c3-9958-218d32095068.png)
+![ ](https://user-images.githubusercontent.com/71665600/185729926-7377e960-da03-41b8-afd8-9bbf504aa0a2.png)
